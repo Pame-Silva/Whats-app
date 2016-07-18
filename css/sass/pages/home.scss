@@ -1,0 +1,115 @@
+.col-md-4{
+	padding: 0% ;
+	.cabecera{
+		height: 50px;
+		padding: 5px 0px 0px 5px; 
+		border-right: 1px solid $c_border;
+		border-bottom: 1px solid $c_border;
+		.iconos-menu{
+			float: right;
+		}
+	}
+}
+
+.busqueda{
+	background-color: $white;
+	padding: 5px;
+	input{
+		height: 40px;
+		color: $c_gris;
+		width: 90%;
+		i{
+			margin-left: -30px;
+		}
+	}	
+}
+
+.contactos{
+	background-color: white;
+	border: 1px solid $c_gris; 
+	.mensajes{
+		border-top: 1px solid $c_gris;
+		padding: 0px 4px 0px 4px;
+		&:hover{
+			border: 2px solid $c_gris;
+		}
+		img{
+			max-width: 100%;
+			margin-right: 5%;
+		}
+		h6{
+			float: right;
+			color: $c_h4;
+		}
+	}
+}
+
+.col-md-8{
+	padding: 0%;
+	.info {
+		background-color: $c_gris;
+		padding: 12px;
+	}
+	.clip {
+		float: right;
+	}
+	.puntos {
+		float: right;
+	}
+	.Laboratoria-Peru{
+		padding: 4px;
+		border-bottom: 1px solid $c_border;
+		i{
+			margin-top: -40px;
+			padding: 6px;
+		}
+	}
+	.chat-panel {
+		background-image: url(../image/chat-panel-bg.png);
+		background-size: cover;
+		padding: 2%;
+	}
+	.background-gray {
+		background-color: $white;
+		max-width: 55%;
+		border: 1px solid $c_gris_cl;
+		padding: 2px;
+		h6{
+			float: right;
+			color: $c_gris;
+		}
+	}
+	.respuestas{
+		width: 100%;
+		margin-left: 60%;
+		.background-green {
+			background-color: $c_verde_c;
+			max-width: 40%;
+			border: 1px solid $c_gris;
+			padding: 4px;
+			h6{
+				float: right;
+				color: $c_gris;
+			}
+			.time{
+				margin-left: 10px;
+				p{
+					float: right;
+				}
+			}
+		}	
+	}
+}
+
+.chat-voz {
+	padding: 5px;
+	border-top: 1px solid $c_border;
+	i{
+		padding: 5px;
+	}
+	input{
+		width: 90%;
+		height: 40px;
+		color: $c_gris;
+	}
+}
