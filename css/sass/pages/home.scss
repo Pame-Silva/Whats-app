@@ -1,8 +1,8 @@
 .col-md-4{
 	padding: 0% ;
 	.cabecera{
-		height: 50px;
-		padding: 5px 0px 0px 5px; 
+		height: 60px;
+		padding: 10px 5px; 
 		border-right: 1px solid $c-border;
 		border-bottom: 1px solid $c-border;
 		.iconos-menu{
@@ -58,7 +58,8 @@
 		float: right;
 	}
 	.Laboratoria-Peru{
-		padding: 4px;
+		height: 60px;
+		padding: 5px;
 		border-bottom: 1px solid $c-border;
 		i{
 			margin-top: -40px;
@@ -70,6 +71,9 @@
 		background-size: cover;
 		padding: 1%;
 		height: 600px;
+		.chat{
+			padding: 5%;
+		}
 	}
 	.background-gray {
 		background-color: $c-white;
@@ -106,7 +110,7 @@
 		border-top: 1px solid $c-border;
 		i{
 			padding: 5px;
-			font-size: 20px;
+			font-size: 35px;
 		}
 		#responder{
 			width: 85%;

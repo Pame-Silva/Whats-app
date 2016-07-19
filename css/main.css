@@ -18,8 +18,8 @@ body {
       color: #777777;
       font-size: 30px; }
     body section .perfil {
-      width: 40px;
-      height: 40px;
+      width: 50px;
+      height: 50px;
       -moz-border-radius: 50%;
       -webkit-border-radius: 50%;
       border-radius: 50%; }
@@ -35,8 +35,8 @@ body {
 .col-md-4 {
   padding: 0%; }
   .col-md-4 .cabecera {
-    height: 50px;
-    padding: 5px 0px 0px 5px;
+    height: 60px;
+    padding: 10px 5px;
     border-right: 1px solid #C5C7C2;
     border-bottom: 1px solid #C5C7C2; }
     .col-md-4 .cabecera .iconos-menu {
@@ -78,7 +78,8 @@ body {
   .col-md-8 .puntos {
     float: right; }
   .col-md-8 .Laboratoria-Peru {
-    padding: 4px;
+    height: 60px;
+    padding: 5px;
     border-bottom: 1px solid #C5C7C2; }
     .col-md-8 .Laboratoria-Peru i {
       margin-top: -40px;
@@ -88,6 +89,8 @@ body {
     background-size: cover;
     padding: 1%;
     height: 600px; }
+    .col-md-8 .chat-panel .chat {
+      padding: 5%; }
   .col-md-8 .background-gray {
     background-color: white;
     max-width: 55%;
@@ -116,7 +119,7 @@ body {
     border-top: 1px solid #C5C7C2; }
     .col-md-8 .chat-voz i {
       padding: 5px;
-      font-size: 20px; }
+      font-size: 35px; }
     .col-md-8 .chat-voz #responder {
       width: 85%;
       height: 35px;
