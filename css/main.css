@@ -1,0 +1,125 @@
+body {
+  background-color: #D9DBD4; }
+  body section {
+    margin: 0% 4% 0% 5%;
+    background-color: #EEEEEE;
+    margin-top: -50px; }
+    body section h4 {
+      color: #000000;
+      display: inline-block; }
+    body section p {
+      color: #666666;
+      font-size: 13px; }
+    body section a {
+      text-decoration: none; }
+      body section a:hover {
+        text-decoration: none; }
+    body section i {
+      color: #777777;
+      font-size: 30px; }
+    body section .perfil {
+      width: 40px;
+      height: 40px;
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%;
+      border-radius: 50%; }
+    body section .border {
+      border: 1px solid #C5C7C2; }
+
+.bg-green {
+  background-color: #009683;
+  max-height: 200px;
+  height: 400%;
+  padding-top: 10%; }
+
+.col-md-4 {
+  padding: 0%; }
+  .col-md-4 .cabecera {
+    height: 50px;
+    padding: 5px 0px 0px 5px;
+    border-right: 1px solid #C5C7C2;
+    border-bottom: 1px solid #C5C7C2; }
+    .col-md-4 .cabecera .iconos-menu {
+      float: right; }
+
+.busqueda {
+  background-color: white;
+  padding: 5px; }
+  .busqueda input {
+    height: 40px;
+    color: #D9DBD4;
+    width: 90%; }
+    .busqueda input i {
+      margin-left: -30px; }
+
+.contactos {
+  background-color: white;
+  border: 1px solid #D9DBD4; }
+  .contactos .mensajes {
+    border-top: 1px solid #D9DBD4;
+    height: 100px;
+    padding: 5px; }
+    .contactos .mensajes:hover {
+      border: 2px solid #D9DBD4; }
+    .contactos .mensajes img {
+      max-width: 100%;
+      margin-right: 5%; }
+    .contactos .mensajes h6 {
+      float: right;
+      color: #000000; }
+
+.col-md-8 {
+  padding: 0%; }
+  .col-md-8 .info {
+    background-color: #D9DBD4;
+    padding: 12px; }
+  .col-md-8 .clip {
+    float: right; }
+  .col-md-8 .puntos {
+    float: right; }
+  .col-md-8 .Laboratoria-Peru {
+    padding: 4px;
+    border-bottom: 1px solid #C5C7C2; }
+    .col-md-8 .Laboratoria-Peru i {
+      margin-top: -40px;
+      padding: 6px; }
+  .col-md-8 .chat-panel {
+    background-image: url(../image/chat-panel-bg.png);
+    background-size: cover;
+    padding: 1%;
+    height: 600px; }
+  .col-md-8 .background-gray {
+    background-color: white;
+    max-width: 55%;
+    border: 1px solid #EEEEEE;
+    padding: 2px; }
+    .col-md-8 .background-gray h6 {
+      float: right;
+      color: #D9DBD4; }
+  .col-md-8 .respuestas {
+    width: 100%;
+    margin-left: 60%; }
+    .col-md-8 .respuestas .background-green {
+      background-color: #DCF8C6;
+      max-width: 40%;
+      border: 1px solid #D9DBD4;
+      padding: 4px; }
+      .col-md-8 .respuestas .background-green h6 {
+        float: right;
+        color: #D9DBD4; }
+      .col-md-8 .respuestas .background-green .time {
+        margin-left: 10px; }
+        .col-md-8 .respuestas .background-green .time p {
+          float: right; }
+  .col-md-8 .chat-voz {
+    padding: 5px;
+    border-top: 1px solid #C5C7C2; }
+    .col-md-8 .chat-voz i {
+      padding: 5px;
+      font-size: 20px; }
+    .col-md-8 .chat-voz #responder {
+      width: 85%;
+      height: 35px;
+      color: #D9DBD4; }
+
+/*# sourceMappingURL=main.css.map */
