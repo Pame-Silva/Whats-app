@@ -5,6 +5,7 @@
 		padding: 10px 5px; 
 		border-right: 1px solid $c-border;
 		border-bottom: 1px solid $c-border;
+		background-color: $c-gris-cl;
 		.iconos-menu{
 			float: right;
 		}
@@ -14,9 +15,9 @@
 .busqueda{
 	background-color: $c-white;
 	padding: 5px;
-	input{
+	#buscar{
 		height: 40px;
-		color: $c-gris;
+		color: $c-icons;
 		width: 90%;
 		i{
 			margin-left: -30px;
@@ -61,6 +62,7 @@
 		height: 60px;
 		padding: 5px;
 		border-bottom: 1px solid $c-border;
+		background-color: $c-gris-cl;
 		i{
 			margin-top: -40px;
 			padding: 6px;
@@ -71,8 +73,14 @@
 		background-size: cover;
 		padding: 1%;
 		height: 600px;
+		max-height: 600px;
 		.chat{
-			padding: 5%;
+			padding: 5px;
+			border: 1px solid $c-border;
+			background-color: white;
+			border-radius: 10px;
+			max-width: 55%;
+			float: left;
 		}
 	}
 	.background-gray {
@@ -108,6 +116,7 @@
 	.chat-voz {
 		padding: 5px;
 		border-top: 1px solid $c-border;
+		background-color: $c-gris-cl;
 		i{
 			padding: 5px;
 			font-size: 35px;
@@ -115,7 +124,7 @@
 		#responder{
 			width: 85%;
 			height: 35px;
-			color: $c-gris;
+			color: $c-icons;
 		}
 	}
 }

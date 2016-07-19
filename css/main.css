@@ -2,7 +2,6 @@ body {
   background-color: #D9DBD4; }
   body section {
     margin: 0% 4% 0% 5%;
-    background-color: #EEEEEE;
     margin-top: -50px; }
     body section h4 {
       color: #000000;
@@ -38,18 +37,19 @@ body {
     height: 60px;
     padding: 10px 5px;
     border-right: 1px solid #C5C7C2;
-    border-bottom: 1px solid #C5C7C2; }
+    border-bottom: 1px solid #C5C7C2;
+    background-color: #EEEEEE; }
     .col-md-4 .cabecera .iconos-menu {
       float: right; }
 
 .busqueda {
   background-color: white;
   padding: 5px; }
-  .busqueda input {
+  .busqueda #buscar {
     height: 40px;
-    color: #D9DBD4;
+    color: #777777;
     width: 90%; }
-    .busqueda input i {
+    .busqueda #buscar i {
       margin-left: -30px; }
 
 .contactos {
@@ -80,7 +80,8 @@ body {
   .col-md-8 .Laboratoria-Peru {
     height: 60px;
     padding: 5px;
-    border-bottom: 1px solid #C5C7C2; }
+    border-bottom: 1px solid #C5C7C2;
+    background-color: #EEEEEE; }
     .col-md-8 .Laboratoria-Peru i {
       margin-top: -40px;
       padding: 6px; }
@@ -88,9 +89,15 @@ body {
     background-image: url(../image/chat-panel-bg.png);
     background-size: cover;
     padding: 1%;
-    height: 600px; }
+    height: 600px;
+    max-height: 600px; }
     .col-md-8 .chat-panel .chat {
-      padding: 5%; }
+      padding: 5px;
+      border: 1px solid #C5C7C2;
+      background-color: white;
+      border-radius: 10px;
+      max-width: 55%;
+      float: left; }
   .col-md-8 .background-gray {
     background-color: white;
     max-width: 55%;
@@ -116,13 +123,14 @@ body {
           float: right; }
   .col-md-8 .chat-voz {
     padding: 5px;
-    border-top: 1px solid #C5C7C2; }
+    border-top: 1px solid #C5C7C2;
+    background-color: #EEEEEE; }
     .col-md-8 .chat-voz i {
       padding: 5px;
       font-size: 35px; }
     .col-md-8 .chat-voz #responder {
       width: 85%;
       height: 35px;
-      color: #D9DBD4; }
+      color: #777777; }
 
 /*# sourceMappingURL=main.css.map */
