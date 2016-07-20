@@ -34,6 +34,7 @@
 		padding: 5px;
 		&:hover{
 			border: 2px solid $c-gris;
+			background: #e9ebeb;
 		}
 		img{
 			max-width: 100%;
@@ -75,12 +76,18 @@
 		height: 600px;
 		max-height: 600px;
 		.chat{
-			padding: 5px;
+			padding: 5px 10px;
 			border: 1px solid $c-border;
-			background-color: white;
+			background-color: $c-verde-c;
 			border-radius: 10px;
 			max-width: 55%;
-			float: left;
+			margin: 5px 0px 5px 43%;
+			h5{
+				margin-left: 85%;
+			}
+			p{
+				font-size: 15px;
+			}
 		}
 	}
 	.background-gray {
@@ -123,7 +130,7 @@
 		}
 		#responder{
 			width: 85%;
-			height: 35px;
+			height: 30px;
 			color: $c-icons;
 		}
 	}
