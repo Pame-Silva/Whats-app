@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 body {
-  background-color: #D9DBD4; }
+  background-color: #D9DBD4;
+  padding-bottom: 2%; }
   body section {
     margin: 0% 4% 0% 5%;
     margin-top: -50px; }
@@ -18,8 +19,8 @@ body {
       color: #777777;
       font-size: 30px; }
     body section .perfil {
-      width: 50px;
-      height: 50px;
+      width: 60px;
+      height: 60px;
       -moz-border-radius: 50%;
       -webkit-border-radius: 50%;
       border-radius: 50%; }
@@ -38,7 +39,7 @@ body {
 .col-md-4 {
   padding: 0%; }
   .col-md-4 .cabecera {
-    height: 60px;
+    height: 70px;
     padding: 10px 5px;
     border-right: 1px solid #C5C7C2;
     border-bottom: 1px solid #C5C7C2;
@@ -48,7 +49,7 @@ body {
 
 .busqueda {
   background-color: white;
-  padding: 5px; }
+  padding: 8px; }
   .busqueda #buscar {
     height: 40px;
     color: #777777;
@@ -58,7 +59,9 @@ body {
 
 .contactos {
   background-color: white;
-  border: 1px solid #D9DBD4; }
+  border: 1px solid #D9DBD4;
+  height: 600px;
+  overflow: scroll; }
   .contactos .mensajes {
     border-top: 1px solid #D9DBD4;
     height: 100px;
@@ -83,8 +86,8 @@ body {
   .col-md-8 .puntos {
     float: right; }
   .col-md-8 .Laboratoria-Peru {
-    height: 60px;
-    padding: 5px;
+    height: 70px;
+    padding: 10px 5px;
     border-bottom: 1px solid #C5C7C2;
     background-color: #EEEEEE; }
     .col-md-8 .Laboratoria-Peru i {
@@ -95,7 +98,9 @@ body {
     background-size: cover;
     padding: 1%;
     height: 600px;
-    max-height: 600px; }
+    max-height: 600px;
+    overflow: scroll;
+    position: relative; }
     .col-md-8 .chat-panel .chat {
       padding: 5px 10px;
       border: 1px solid #C5C7C2;
@@ -107,6 +112,16 @@ body {
         margin-left: 85%; }
       .col-md-8 .chat-panel .chat p {
         font-size: 15px; }
+    .col-md-8 .chat-panel .iconos {
+      bottom: 0px;
+      position: absolute;
+      background-color: white;
+      height: 200px;
+      width: 400px;
+      transition: all 0.5s ease-in; }
+      .col-md-8 .chat-panel .iconos._hide {
+        opacity: 0;
+        transition: all 0.5s ease-in; }
   .col-md-8 .background-gray {
     background-color: white;
     max-width: 55%;
@@ -131,10 +146,12 @@ body {
         .col-md-8 .respuestas .background-green .time p {
           float: right; }
   .col-md-8 .chat-voz {
-    padding: 5px;
+    padding: 8px 5px 12px 5px;
     border-top: 1px solid #C5C7C2;
-    background-color: #EEEEEE; }
+    background-color: #EEEEEE;
+    position: relative; }
     .col-md-8 .chat-voz i {
+      margin: 0px 5px;
       padding: 5px;
       font-size: 35px; }
     .col-md-8 .chat-voz #responder {

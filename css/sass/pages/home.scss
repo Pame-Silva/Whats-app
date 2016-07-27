@@ -1,7 +1,7 @@
 .col-md-4{
 	padding: 0% ;
 	.cabecera{
-		height: 60px;
+		height: 70px;
 		padding: 10px 5px; 
 		border-right: 1px solid $c-border;
 		border-bottom: 1px solid $c-border;
@@ -14,7 +14,7 @@
 
 .busqueda{
 	background-color: $c-white;
-	padding: 5px;
+	padding: 8px;
 	#buscar{
 		height: 40px;
 		color: $c-icons;
@@ -28,6 +28,8 @@
 .contactos{
 	background-color: white;
 	border: 1px solid $c-gris;
+	height: 600px;
+	overflow: scroll;
 	.mensajes{
 		border-top: 1px solid $c-gris;
 		height: 100px;
@@ -60,8 +62,8 @@
 		float: right;
 	}
 	.Laboratoria-Peru{
-		height: 60px;
-		padding: 5px;
+		height: 70px;
+		padding: 10px 5px;
 		border-bottom: 1px solid $c-border;
 		background-color: $c-gris-cl;
 		i{
@@ -75,6 +77,8 @@
 		padding: 1%;
 		height: 600px;
 		max-height: 600px;
+		overflow: scroll;
+		position: relative;
 		.chat{
 			padding: 5px 10px;
 			border: 1px solid $c-border;
@@ -87,6 +91,18 @@
 			}
 			p{
 				font-size: 15px;
+			}
+		}
+		.iconos{
+			bottom: 0px;
+			position: absolute;
+			background-color: white;
+			height: 200px;
+			width: 400px;
+			transition: all 0.5s ease-in; 
+			&._hide{
+				opacity: 0;
+				transition: all 0.5s ease-in; 
 			}
 		}
 	}
@@ -121,10 +137,12 @@
 		}	
 	}
 	.chat-voz {
-		padding: 5px;
+		padding: 8px 5px 12px 5px;;
 		border-top: 1px solid $c-border;
 		background-color: $c-gris-cl;
+		position: relative;
 		i{
+			margin: 0px 5px;
 			padding: 5px;
 			font-size: 35px;
 		}
